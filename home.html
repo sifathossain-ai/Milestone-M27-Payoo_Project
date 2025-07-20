@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <main class="flex justify-center mt-12">
+        <div class="mockup-phone border-primary bg-gray-200">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display">
+                <!-- Available Balance -->
+                <div class="flex justify-center mt-40">
+                    <div class="stats shadow bg-white">
+                        <div class="stat text-center">
+                            <div class="stat-value">9,400</div>
+                            <div class="stat-desc">Available Balance</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <!-- Button -->
+                <div class="flex justify-center gap-2">
+                    <button class="btn btn-lg bg-white">Add Money</button>
+                    <button class="btn btn-lg bg-white">Cash Out</button>
+                </div>
+                <div class="divider"></div>
+                <!-- Add Form -->
+                <div>
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <div class="card-body">
+                            <fieldset class="fieldset">
+                                <label class="label">Amount</label>
+                                <input type="text" class="input" placeholder="Your Amount" />
+                                <label class="label">Pin</label>
+                                <input type="password" class="input" placeholder="Your Pin" />
+                                <button class="btn btn-success mt-4 text-white">Add Mony</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form -->
+
+            </div>
+        </div>
+    </main>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
